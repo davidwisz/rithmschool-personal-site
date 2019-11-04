@@ -1,0 +1,33 @@
+/*
+.section.home {
+	display: block;
+}
+.expand-all {
+	display: none;
+}
+.toggle-section {
+	display: inline;
+	background-image: none;
+}
+*/
+.sprite-bg {
+	background: transparent url(/assets/img/sprite-ie.png) right 5px no-repeat;
+	background-size: 52px;
+}
+.sprite-bg.toggle-section.expanded {
+	background-position: right -55px;
+}
+#expand-all {
+	background-position: 0 -110px;
+}
+main {
+	padding-bottom: 5rem;
+}
+footer {
+	position: fixed; 
+	bottom: 0; 
+	left: 0;
+}
+.sprite-bg.resume-link {
+	background-position: 0 -160px;
+}
